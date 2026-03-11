@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "e21eeb57-d6ca-4301-9e5b-9325d3817b68",
+      "name": "AI维保竞品调研报告",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1773194233501,
+      "updatedAtMs": 1773194233501,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-12T18:00:00.000Z"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "启动AI维保竞品调研报告任务：\n主题：AI维保产品全球市场分析\n范围：AI类产品为主，非AI类工厂管理软件为辅\n维度：价格、功能、综合对比\n目的：为市场开拓提供精准情报\nDDL：3月14日21:00前交付给吕总\n\n要求：\n1. 全面调研AI维保产品\n2. 对比价格、功能\n3. 分析市场格局\n4. 生成详细报告（飞书文档）\n5. 高质量、有深度洞察"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_12dd9e55259701aeb2701dccf7f1ee54"
+      },
+      "state": {
+        "nextRunAtMs": 1773338400000
+      }
+    },
+    {
+      "id": "c5147b44-9c18-40b2-b311-96ae365ad4a4",
+      "name": "跟进夏总AI面试项目",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1773196547405,
+      "updatedAtMs": 1773196547405,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-18T01:00:00.000Z"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "提醒吕总：跟进夏总AI面试项目。上周夏总表示需请示领导后反馈，今天询问进展。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_12dd9e55259701aeb2701dccf7f1ee54"
+      },
+      "state": {
+        "nextRunAtMs": 1773795600000
+      }
+    },
+    {
+      "id": "d0605981-f10d-4fa1-a115-d8a25dd049bb",
+      "name": "提醒Web端UI框架方案",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1773197861035,
+      "updatedAtMs": 1773197861035,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-12T02:00:00.000Z"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "提醒吕总：整理AI老师傅Web端UI框架详细方案，并告知老于。皓子正在设计APP端UI，老于在等待Web端方案。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_12dd9e55259701aeb2701dccf7f1ee54"
+      },
+      "state": {
+        "nextRunAtMs": 1773280800000
+      }
+    },
+    {
+      "id": "049c7e93-3ff5-4635-aea4-1acb3ba85713",
+      "name": "每日早报",
+      "enabled": true,
+      "createdAtMs": 1773198007223,
+      "updatedAtMs": 1773198007223,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "生成今日早报，严格按照以下格式：\n\n【虾米·YYYY-MM-DD 早报】\n🔴 私人待办：\n🟡 工作待办：\n  - 【#销售/项目/宣传/产品/申报】任务描述 - 时间/状态\n🟢 提醒（未来24小时）：\n👥 团队项目进度：\n  - 皓子：APP端UI设计（进行中）\n  - 老于：Web端UI框架（等待吕总方案）\n\n**生成步骤：**\n1. 必须读取 memory/episodic/昨天日期.md\n2. 提取真实待办事项\n3. 读取团队项目进度文件\n4. 按格式生成早报\n\n**注意：**\n- 数据来源：历史记录文件，禁止虚构\n- Q2苏浙市场和软件协会案例申报项目未开始，暂时不写进早报"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_12dd9e55259701aeb2701dccf7f1ee54"
+      },
+      "state": {
+        "nextRunAtMs": 1773273600000
+      }
+    },
+    {
+      "id": "06d56cf1-ba85-4144-bcac-4a481f5d7dfd",
+      "name": "弗马斯精密锻件拜访提醒",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1773199023926,
+      "updatedAtMs": 1773199023926,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-14T05:00:00.000Z"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "提醒吕总：今天下午弗马斯精密锻件(大连)有限公司客户拜访，孔总联系，您也参加。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_12dd9e55259701aeb2701dccf7f1ee54"
+      },
+      "state": {
+        "nextRunAtMs": 1773464400000
+      }
+    },
+    {
+      "id": "2966bdbf-bd8f-4410-98fe-e1d2f1608781",
+      "name": "督促瓦轴培训安排",
+      "enabled": true,
+      "createdAtMs": 1773199910878,
+      "updatedAtMs": 1773199910878,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "提醒吕总：督促子轩确定瓦轴培训时间。瓦轴合同已签完，需尽快安排培训。请跟进子轩进度。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_12dd9e55259701aeb2701dccf7f1ee54"
+      },
+      "state": {
+        "nextRunAtMs": 1773277200000
+      }
+    },
+    {
+      "id": "b1095703-ea11-444e-8014-7b586182335f",
+      "name": "戒烟打卡提醒",
+      "enabled": true,
+      "createdAtMs": 1773207031209,
+      "updatedAtMs": 1773207031209,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "吕总早安！🚭 戒烟打卡提醒。今天是不抽烟的第N天，加油！每一根不抽的烟都是对自己的投资。💪 有任何 cravings 随时跟我说。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_12dd9e55259701aeb2701dccf7f1ee54"
+      },
+      "state": {
+        "nextRunAtMs": 1773277200000
+      }
+    },
+    {
+      "id": "xinghong-zhizao-followup-001",
+      "name": "星泓制造项目跟进提醒",
+      "enabled": true,
+      "createdAtMs": 1773300540000,
+      "updatedAtMs": 1773300540000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 */14 * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "提醒吕总：跟进星泓制造AI老师傅项目进展。\n\n背景：\n- 星泓制造吕部长因公司计划上大AI而暂停AI老师傅项目\n- 依科张雪总监询问信息部耿部长，答复是公司有计划但启动时间未定\n\n建议行动：\n1. 联系张雪总监，了解是否有新进展\n2. 或直接联系星泓制造信息部耿部长\n3. 询问大AI计划的最新时间表\n\n目标：在大AI启动前切入，争取AI老师傅作为试点项目"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "ou_12dd9e55259701aeb2701dccf7f1ee54"
+      },
+      "state": {
+        "nextRunAtMs": 1774486800000
+      }
+    }
+  ]
+}
