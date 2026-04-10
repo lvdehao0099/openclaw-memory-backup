@@ -1,0 +1,1038 @@
+[
+  {
+    "block_id": "OxAtdBs78ocPF8xCsYlcEyUenWh",
+    "block_type": 2,
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb",
+    "text": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "查阅文档版本：",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 飞书开放平台 Docx v1 (2026-03-12) ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "核心原则：",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 飞书新版文档（Docx）不支持直接解析 Markdown 字符串。所有内容必须拆解为独立的 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "Block",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "，并通过结构化 JSON 进行嵌套挂载。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    }
+  },
+  {
+    "block_id": "FRSVdIoQdoGongxCA9pcmPbhnic",
+    "block_type": 6,
+    "heading4": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "关于标题与目录解析的修正 (Heading & TOC)",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "RUGrdOgL0o4DyxxVbzycfgURn7b",
+    "block_type": 2,
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb",
+    "text": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "飞书的目录系统（TOC）仅识别特定 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "block_type",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 的块。不要尝试在 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "text",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 块中通过 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "#",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 或加粗来模拟标题。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    }
+  },
+  {
+    "block_id": "X40kdW3Q4orsXQxT6P7c9VaUn5d",
+    "block_type": 12,
+    "bullet": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "实现方案：",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 必须显式指定 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "block_type",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "：",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "children": [
+      "TX7Rd6iGhooNvcxSnrJcsj2Pnph",
+      "I8Dadkds6oeGHFxkdgOcsnBKnic",
+      "YHrudLJDPoWiw8xdwGScwiNxnUd"
+    ],
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "IqlPdso01oBSh4xnB3RcST8lnid",
+    "block_type": 12,
+    "bullet": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "结构示例：",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "YVLedhlVLoofr8xuUUvcalAKnuK",
+    "block_type": 12,
+    "bullet": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "JSON",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "UxOCdAfGvoNnHdxjNYmcQAR7nmd",
+    "block_type": 14,
+    "code": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "{\n  \"block_type\": 3, \n  \"heading1\": {\n    \"elements\": [{ \"text_run\": { \"content\": \"这是真实的一级标题\" } }],\n    \"style\": { \"align\": 1 } \n  }\n",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "}",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "language": 1,
+        "wrap": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "WToVdDqZjo2RMXxSsIncsgu5nNh",
+    "block_type": 6,
+    "heading4": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "关于原生表格 (Native Table) 的构建协议",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "CzmFdrO3coEBj5xJeuzcRGXbnjc",
+    "block_type": 2,
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb",
+    "text": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "禁止将 Markdown 表格作为字符串写入。原生表格必须遵循 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "Table -> Table Cell -> Content Block",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 的三层嵌套模型。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    }
+  },
+  {
+    "block_id": "STJQdv4bGosC4lxhB6TcJg5Wnwb",
+    "block_type": 12,
+    "bullet": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "第一步：定义容器 (Table Block)",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 使用 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "block_type: 31",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "，必须声明 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "row_size",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 和 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "column_size",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "NxAhdWEpHon2hFxiQHvcrdnPn2f",
+    "block_type": 12,
+    "bullet": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "第二步：创建单元格 (Table Cell Block)",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 表格内部由 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "block_type: 32",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 的单元格组成。单元格本身是一个容器，它不直接持有文字，而是持有 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "children",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "（通常是 text 块）。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "W86jdGojfoRimux8ukYc5Egdneb",
+    "block_type": 12,
+    "bullet": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "第三步：批量创建 (Batch Create)",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 推荐使用 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "POST /open-apis/docx/v1/documents/{document_id}/blocks/{block_id}/children",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 接口，在 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "children",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 数组中一次性定义整个表格结构。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "YOF8dzj3pod6SDx3oKIcoHQTnUh",
+    "block_type": 6,
+    "heading4": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "示例：将市场数据转换为飞书原生表格的 JSON 逻辑",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "F3End4gpPoJKzuxCS3BcErD2nYg",
+    "block_type": 2,
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb",
+    "text": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "AI 助手在处理数据时，应按如下逻辑构造 Request Body：",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    }
+  },
+  {
+    "block_id": "LVHWdxJ7zo9Z3uxemDjc0Hs5nr8",
+    "block_type": 2,
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb",
+    "text": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "JSON",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    }
+  },
+  {
+    "block_id": "JenLd2ML7oNDg1xsl1QcZm56nFe",
+    "block_type": 14,
+    "code": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "{\n  \"children\": [\n    {\n      \"block_type\": 31, // Table 类型\"table\": {\n        \"property\": {\n          \"row_size\": 2,\n          \"column_size\": 2,\n          \"header_row\": true // 设置首行为标题行\n        }\n      },\n      \"children\": [\n        {\n          \"block_type\": 32, // 单元格 1\"children\": [{ \"block_type\": 2, \"text\": { \"elements\": [{ \"text_run\": { \"content\": \"年份\" } }] } }]\n        },\n        {\n          \"block_type\": 32, // 单元格 2\"children\": [{ \"block_type\": 2, \"text\": { \"elements\": [{ \"text_run\": { \"content\": \"市场规模\" } }] } }]\n        }\n        // ... 以此类推填充所有行和列\n      ]\n    }\n  ]\n",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "}",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "language": 1,
+        "wrap": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "X1XXd5RoXoTH0ZxnZ3JcBpfInIg",
+    "block_type": 6,
+    "heading4": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "AI 开发助手行动指南",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "LEoQdUNvUoGvxkxPNwuc4CHKngc",
+    "block_type": 13,
+    "ordered": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "解析逻辑：",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 当输入源为 Markdown 时，请编写一个解析器（Parser），将 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "#",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 映射为对应的 Heading Block，将表格语法解析为二维数组，再映射为 Table/Cell Block。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false,
+        "sequence": "1"
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "JweFdCxPToFIWhxuJwLc8oz6ncd",
+    "block_type": 13,
+    "ordered": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "样式处理：",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 如果需要加粗、斜体或颜色，请在 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "text_run",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 下的 ",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": "text_element_style",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 中定义，而不是使用 Markdown 符号。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false,
+        "sequence": "auto"
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  },
+  {
+    "block_id": "Z9etdDKRJodJMExhxVRcaWNMnCb",
+    "block_type": 13,
+    "ordered": {
+      "elements": [
+        {
+          "text_run": {
+            "content": "接口选择：",
+            "text_element_style": {
+              "bold": true,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        },
+        {
+          "text_run": {
+            "content": " 优先使用“批量创建子块”接口，以减少 API 调用次数并确保文档顺序的一致性。",
+            "text_element_style": {
+              "bold": false,
+              "inline_code": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            }
+          }
+        }
+      ],
+      "style": {
+        "align": 1,
+        "folded": false,
+        "sequence": "auto"
+      }
+    },
+    "parent_id": "YUdBdgOtZoDtURxURzkclv4fnfb"
+  }
+]
