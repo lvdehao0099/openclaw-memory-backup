@@ -1,0 +1,126 @@
+{
+  "collection_date": "2026-03-12",
+  "source": "微信搜一搜热榜采集",
+  "articles": [
+    {
+      "rank": 1,
+      "title": "苏州:冲刺「智能制造之城」",
+      "source": "苏州日报",
+      "date": "2026-03-05",
+      "summary": "苏州以「人工智能+制造」定义「智能制造之城」的路径，将自身完备的工业体系作为AI应用场景",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtDVs1fr73AmZkVGP7Aatj21qXa8Fplpd9qUfTutr5GIn617T92NLfPOUSOfZdqaWouqI-NhVpGGiPiRjzLxFAwSg_CSEJA7uPjplCVQD-CSkkkEcGiY5d6-BRHdKSJVHYGeWd6gvrCWgbcDqos7x12NVNiO8wcGwHTzhWv_e4zFM91cnxnj5RbCR37z89m2Joh6TEyzkI1tDuL0unUdKkuw..&type=2&query=智能制造",
+      "category": "智能制造/城市战略",
+      "relevance_score": 95,
+      "relevance_reason": "苏州是Q2苏浙市场核心目标城市；AI+制造正是AI老师傅业务方向；可借此切入苏州制造业客户",
+      "topic_suggestion": "《苏州智造升级背后：中小工厂如何低成本实现AI设备管理？》"
+    },
+    {
+      "rank": 2,
+      "title": "两会之声 | 孙景南谈职业教育与智能制造人才培养",
+      "source": "中国中车",
+      "date": "2026-03-06",
+      "summary": "智能制造作为核心方向，当前人才培养仍存在供需错配、能力断层等问题",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtDVs1fr73AmZkVGP7Aatj21qXa8Fplpd9v50ppNqYvdq8htBU3xo192hwAVYen98favIeWjKkbwAezaPrIq0KnBBGeVLlgPW6plY6HQBCUhAD0gjlF1z9euS6ec5Wkef-YJjvYzEXpN3-F0OeOpgPvH07bzeusvE8I2GhQQcXthzKprnGrto4Kk4cZwO6YxRYmZLBY7GydtLI3OTRHYU2og..&type=2&query=智能制造",
+      "category": "两会/人才培养",
+      "relevance_score": 85,
+      "relevance_reason": "工业维保人才断层是AI老师傅解决的痛点；可与职业教育结合切入市场",
+      "topic_suggestion": "《老师傅退休，年轻人不愿进厂：AI如何破解制造业人才断层？》"
+    },
+    {
+      "rank": 3,
+      "title": "锐翔智能北交所IPO过会:专注FPC智能制造",
+      "source": "全景财经",
+      "date": "2026-03-04",
+      "summary": "深耕智能制造领域近二十年的国家高新技术企业，专注FPC柔性电路板智能制造装备",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtDVs1fr73AmZkVGP7Aatj21qXa8Fplpd9VVofpXztW_tUDDY1Ap5wBYwxY-Iy3yw5jqXGhZ4PA557TWYy02mo6uTXvAiuHcVeFJ72KxFPlvSDT1ONHogwqERvKTydDi10wHs8F38UcWz1-joeSmY3M8xVHGgHXJXF8aBEJCy7bVoUo34SvZeUQoh6eCE0XE50FWJT5_SD69M5eBgmN3LoYQ..&type=2&query=智能制造",
+      "category": "企业IPO/智能制造",
+      "relevance_score": 80,
+      "relevance_reason": "智能制造装备企业成功案例；FPC行业是AI老师傅潜在客户群体",
+      "topic_suggestion": "《智能制造装备企业上市潮背后：设备管理数字化成核心竞争力》"
+    },
+    {
+      "rank": 4,
+      "title": "林至颖代表:为「人工智能+」应用提供坚实法治保障",
+      "source": "人民法院报",
+      "date": "2026-03-12",
+      "summary": "全国人大代表呼吁为人工智能+应用提供法治保障，涉及AI在工业领域合规应用",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtncC5nKvz1zxkVGP7Aatj21qXa8Fplpd9nZqUlWDADpGMn-F-JPwNnUJ_Jii809uqZ1EfZWGU-lRLRhnuFkkeMX2O8q96aXBJYIVKa_Y8A9SgcHIL-lLPEWNdhRsyXUfL9VAdZkCYRk3hVosaB5KB_s7XBjp4MXHtvywCTUlfixauKO1O1AFPBdsLDl0frSchQTagDesiL_jm0CtGSSkZQQ..&type=2&query=人工智能",
+      "category": "两会/政策法规",
+      "relevance_score": 70,
+      "relevance_reason": "AI+工业应用的合规性是B端客户关注点；政策红利信号",
+      "topic_suggestion": "《AI进工厂，法律先行：工业智能应用的合规指南》"
+    },
+    {
+      "rank": 5,
+      "title": "OpenClaw爆火!「人工智能+」越加越多",
+      "source": "科普中国",
+      "date": "2026-03-11",
+      "summary": "开源AI智能体OpenClaw爆火，「人工智能+」再次被写入政府工作报告",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtncC5nKvz1zxkVGP7Aatj21qXa8Fplpd94PKvVNBpmOdmxgXYcnPS1zoC8uPO5TSaErRmEoUna9TW3meMnH4WTTxAmBXEj6_k74ZSFUMCDcNlNwrZxXhk3NbrggTInK56Wv1RavbRfcCsAQVS_w_GKEM_N7HSIdx5FWCUw0qw7PaRuKBQltiGxZvIxy3Pgd9rw4V7NAoMCqQ89kyxDwoXvg..&type=2&query=人工智能",
+      "category": "AI趋势/智能体",
+      "relevance_score": 75,
+      "relevance_reason": "AI智能体概念火热；AI老师傅本质是工业领域的AI智能体应用",
+      "topic_suggestion": "《从通用智能体到工业老师傅：AI落地的最后一公里》"
+    },
+    {
+      "rank": 6,
+      "title": "AI革命:生产力跃迁、社会重构与人类未来",
+      "source": "始惊次醉终狂",
+      "date": "2026-03-12",
+      "summary": "以通用人工智能(AGI)为核心的AI革命，正拉开第五次工业信息革命大幕",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtncC5nKvz1zxkVGP7Aatj21qXa8Fplpd9NI9HMrF6sFtXw72jnbw9scDGyctVxDjfgQIzGfNchY3LXJpF6SUflBwTy0DGdtIghhrhHQjCzqP4PYdxcv41YEtkT3Xg_jt4Eb1vwYbKwKgQ5jUgEdZfvwLUJAh4vBvAieF0u8oqLoo2pUzBJ-aL4OwHr-MaQAc-e5ACj3oJmkn1AfaFW2DefQ..&type=2&query=人工智能",
+      "category": "AI趋势/产业变革",
+      "relevance_score": 65,
+      "relevance_reason": "宏观趋势话题；可用于品牌站位，但需结合工业场景具象化",
+      "topic_suggestion": "《第五次工业革命的门票：你的工厂准备好了吗？》"
+    },
+    {
+      "rank": 7,
+      "title": "想用AI提升工作效率?3月AI智能体培训来啦",
+      "source": "长沙潮生活",
+      "date": "2026-03-11",
+      "summary": "关于深入实施「人工智能+」行动的意见，提出到2027年实现AI与6大重点领域广泛深度融合",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtncC5nKvz1zxkVGP7Aatj21qXa8Fplpd9qRTzgm3zIYZn7vqMfM6aEnw2g3gAB82OKjB166kQoElMVJdggUoEWL5Guly7OuqzC6b2ZifOs6fBbOqBQa66pEeHJ8K9hidqYqQ0YFaMAN9a5bD_r3gF6l6pJ1nrDJtd8I9VJ1oslR3961zMtS-GwbhLC6uTFOogTHZi41n-3NmE8RsmObDbtQ..&type=2&query=人工智能",
+      "category": "AI培训/政策落地",
+      "relevance_score": 70,
+      "relevance_reason": "AI培训市场热度；可类比推出工业AI培训/咨询服务",
+      "topic_suggestion": "《工厂版AI培训：让维修工变成AI训练师》"
+    },
+    {
+      "rank": 8,
+      "title": "博士招生!港岭南26fall或将增设智能制造博士项目",
+      "source": "哈鲁留学",
+      "date": "2026-03-11",
+      "summary": "将推出智能制造博士(DSM)，培养能够引领工业创新、推进制造技术集成的领军人才",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtDVs1fr73AmZkVGP7Aatj21qXa8Fplpd9QOyJryoL81ELLPv1W955rxtodd4mH0_q4cSNtnWokQZbnID0vIbtyg8kLF3k9lkwdoHAq5wrdxsKR95zH02kjPHvS3833KcTMnalSF9sTxCsV7_ie_A368JCRo0MhwMXqoPK4F5U4aCLHuU_c0yZwXjt8HLvKE7La6mTHncyBBEYJSSFPgfogQ..&type=2&query=智能制造",
+      "category": "教育/人才培养",
+      "relevance_score": 60,
+      "relevance_reason": "智能制造高端人才培养趋势；人才缺口是AI老师傅市场空间",
+      "topic_suggestion": "《智能制造博士 VS 工厂老师傅：人才战略的双轨选择》"
+    },
+    {
+      "rank": 9,
+      "title": "美军大量使用人工智能工具,我国防部回应",
+      "source": "战略前沿技术",
+      "date": "2026-03-11",
+      "summary": "人工智能军事应用应坚持由人主导、防止失控",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtncC5nKvz1zxkVGP7Aatj21qXa8Fplpd9PRhCp49hfC53-YnLpcrP7IJBeJFnRIfvpKoZein06HL1b-JZMMeN8eADz4luRx2gt5CagOOYZIm5M4K6WbgdmVrWFX8V62ukI1_cFViarWs8teC33vuz9r0jAVim-2iAeO25zTtymA0wABlhhhkdfq2cIgUqGsS22RaiCYJidEfuL0unUdKkuw..&type=2&query=人工智能",
+      "category": "军事/国际",
+      "relevance_score": 30,
+      "relevance_reason": "军事话题，与工业维保场景关联度低",
+      "topic_suggestion": "暂不跟进"
+    },
+    {
+      "rank": 10,
+      "title": "赢在工业数字化转型,西门子做对了什么",
+      "source": "哈佛商业评论",
+      "date": "2020-08-26",
+      "summary": "产业互联网的高度复杂性，决定了工业数字化转型是复杂的、高度定制化的系统工程",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS6Cx-AxgjrgtNdY1WB73cnBkVGP7Aatj21qXa8Fplpd9UD69U6lZIxU0uQY5a2LndpmuZTPL9WwnO75OHcznVNdC_lhtLKJHuyyaXOSCCdBn5jh-ENbAYH5sprWvzz3D9y38etAsjemOJ7T1PxIsCKOIlOJOwDbKgjVVDEGiZqhp3t-_pBz3xOv2z2UqCXiSY5h97Tu9HU2OAs9LzpGN9mqTJmCU1UgHwQ..&type=2&query=工业数字化",
+      "category": "数字化转型/标杆案例",
+      "relevance_score": 85,
+      "relevance_reason": "西门子工业数字化标杆案例；可借鉴其路径，突出AI老师傅差异化价值",
+      "topic_suggestion": "《西门子数字化启示录：中小工厂如何跳过「烧钱」阶段直接上AI？》"
+    }
+  ]
+}
