@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "jobs": {
+    "049c7e93-3ff5-4635-aea4-1acb3ba85713": {
+      "updatedAtMs": 1777121817564,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":false,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 6 * * *\",\"tz\":\"Asia/Shanghai\"}}",
+      "state": {
+        "lastRunAtMs": 1777068000009,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 86630,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    },
+    "xinghong-zhizao-followup-001": {
+      "updatedAtMs": 1777121833367,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":false,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 9 */14 * *\",\"tz\":\"Asia/Shanghai\"}}",
+      "state": {
+        "lastRunAtMs": 1776214800003,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 204495,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    },
+    "10a9fac6-50cf-4fe6-985e-78264e39f933": {
+      "updatedAtMs": 1780419858159,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 1 * * *\",\"tz\":\"Asia/Shanghai\"}}",
+      "state": {
+        "nextRunAtMs": 1780506000000,
+        "lastRunAtMs": 1780419600008,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 258151,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true,
+        "lastFailureNotificationDeliveryStatus": "not-requested"
+      }
+    },
+    "ffb82247-e0fb-4df7-9c65-7e12b6f4f444": {
+      "updatedAtMs": 1777121830452,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":false,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 21 * * *\",\"tz\":\"Asia/Shanghai\"}}",
+      "state": {
+        "lastRunAtMs": 1777035600016,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 20887,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      }
+    }
+  }
+}
