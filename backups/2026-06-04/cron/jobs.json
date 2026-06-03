@@ -61,36 +61,12 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "运行完整记忆备份脚本: ~/.openclaw/backup/memory-backup-full.sh\n\n备份内容:\n- 核心配置文件 (SOUL, IDENTITY, USER, MEMORY, AGENTS, HEARTBEAT, TOOLS, FOR_FUTURE_ME)\n- memory/ 完整记忆目录 (episodic, semantic, procedural, snapshots)\n- semantic/ 语义知识\n- procedural/ 流程规范\n- research/ 调研资料\n- scripts/ 自定义脚本\n- skills/ 技能配置\n- cron/ 定时任务配置\n\n特别注意:\n- FOR_FUTURE_ME.md 会同时放在 backups/$DATE/ 和仓库根目录\n\n推送到: https://github.com/lvdehao0099/openclaw-memory-backup"
+        "message": "运行完整记忆备份脚本: ~/.openclaw/backup/memory-backup-full.sh\n\n备份内容:\n- 核心配置文件 (SOUL, IDENTITY, USER, MEMORY, AGENTS, HEARTBEAT, TOOLS, FOR_FUTURE_ME)\n- memory/ 完整记忆目录 (episodic, semantic, procedural, snapshots)\n- semantic/ 语义知识\n- procedural/ 流程规范\n- research/ 调研资料\n- scripts/ 自定义脚本\n- skills/ 技能配置\n- cron/ 定时任务配置\n\n特别注意:\n- FOR_FUTURE_ME.md 会同时放在 backups/$DATE/ 和仓库根目录\n- GitHub 推送使用 SSH key: /root/.ssh/id_ed25519_openclaw_github_backup\n\n推送到: git@github.com:lvdehao0099/openclaw-memory-backup.git"
       },
       "delivery": {
         "mode": "announce",
         "channel": "feishu",
         "to": "user:ou_12dd9e55259701aeb2701dccf7f1ee54"
-      },
-      "state": {}
-    },
-    {
-      "id": "1d3be727-7b36-4c6d-a994-5f496874ffca",
-      "agentId": "main",
-      "sessionKey": "agent:main:main",
-      "name": "涌金三路并进方案交付",
-      "enabled": false,
-      "deleteAfterRun": true,
-      "createdAtMs": 1773505623330,
-      "schedule": {
-        "at": "2026-03-15T01:00:00.000Z",
-        "kind": "at"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "涌金交付三路并进执行方案：\n\n## 任务1：设计溢价套利方案\n- 平台账号注册流程\n- AI工具配置清单\n- 定价策略\n- 首批接单品类\n\n## 任务2：男性经济出海方案\n- 目标市场确认\n- 供应链对接\n- AI内容生产线\n- 支付通道方案\n\n## 任务3：Web3投研方案\n- 投研人设定位\n- 链上数据源\n- 自动发帖工具\n- 付费社群搭建\n\n请生成三份完整执行方案，以吕总能直接行动的方式呈现。",
-        "model": "tencentcodingplan/glm-5"
-      },
-      "delivery": {
-        "mode": "announce"
       },
       "state": {}
     },

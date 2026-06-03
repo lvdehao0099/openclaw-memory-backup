@@ -61,7 +61,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "运行完整记忆备份脚本: ~/.openclaw/backup/memory-backup-full.sh\n\n备份内容:\n- 核心配置文件 (SOUL, IDENTITY, USER, MEMORY, AGENTS, HEARTBEAT, TOOLS, FOR_FUTURE_ME)\n- memory/ 完整记忆目录 (episodic, semantic, procedural, snapshots)\n- semantic/ 语义知识\n- procedural/ 流程规范\n- research/ 调研资料\n- scripts/ 自定义脚本\n- skills/ 技能配置\n- cron/ 定时任务配置\n\n特别注意:\n- FOR_FUTURE_ME.md 会同时放在 backups/$DATE/ 和仓库根目录\n\n推送到: https://github.com/lvdehao0099/openclaw-memory-backup"
+        "message": "运行完整记忆备份脚本: ~/.openclaw/backup/memory-backup-full.sh\n\n备份内容:\n- 核心配置文件 (SOUL, IDENTITY, USER, MEMORY, AGENTS, HEARTBEAT, TOOLS, FOR_FUTURE_ME)\n- memory/ 完整记忆目录 (episodic, semantic, procedural, snapshots)\n- semantic/ 语义知识\n- procedural/ 流程规范\n- research/ 调研资料\n- scripts/ 自定义脚本\n- skills/ 技能配置\n- cron/ 定时任务配置\n\n特别注意:\n- FOR_FUTURE_ME.md 会同时放在 backups/$DATE/ 和仓库根目录\n- GitHub 推送使用 SSH key: /root/.ssh/id_ed25519_openclaw_github_backup\n\n推送到: git@github.com:lvdehao0099/openclaw-memory-backup.git"
       },
       "delivery": {
         "mode": "announce",
