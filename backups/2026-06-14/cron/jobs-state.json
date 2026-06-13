@@ -28,20 +28,20 @@
       }
     },
     "10a9fac6-50cf-4fe6-985e-78264e39f933": {
-      "updatedAtMs": 1781197242393,
+      "updatedAtMs": 1781283654915,
       "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 1 * * *\",\"tz\":\"Asia/Shanghai\"}}",
       "state": {
-        "nextRunAtMs": 1781283600000,
-        "lastRunAtMs": 1781197200011,
+        "nextRunAtMs": 1781370000000,
+        "lastRunAtMs": 1781283600011,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 42382,
+        "lastDurationMs": 54904,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": true,
         "lastFailureNotificationDeliveryStatus": "not-requested",
-        "runningAtMs": 1781283600002
+        "runningAtMs": 1781370000001
       }
     },
     "ffb82247-e0fb-4df7-9c65-7e12b6f4f444": {

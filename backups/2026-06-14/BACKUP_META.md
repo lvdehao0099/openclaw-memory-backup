@@ -1,9 +1,9 @@
 # OpenClaw 记忆备份
 
-- **备份时间**: 2026-06-13 01:00:16 CST
+- **备份时间**: 2026-06-14 01:00:17 CST
 - **主机**: VM-24-13-ubuntu
 - **工作区**: /root/.openclaw/workspace
-- **备份目录**: /root/.openclaw/backups/2026-06-13
+- **备份目录**: /root/.openclaw/backups/2026-06-14
 - **远程仓库**: git@github.com:lvdehao0099/openclaw-memory-backup.git
 - **认证方式**: SSH key (/root/.ssh/id_ed25519_openclaw_github_backup)
 
